@@ -31,7 +31,7 @@ android {
 
     signingConfigs {
         release {
-            storeFile file('D:/Unity/Magic Girl Mobile/user.keystore')
+            storeFile file('D:/Unity Projects/GuiDaoMagicGirlMobile/user.keystore')
             storePassword 'asdf1234'
             keyAlias 'key0'
             keyPassword 'zxcv9876'

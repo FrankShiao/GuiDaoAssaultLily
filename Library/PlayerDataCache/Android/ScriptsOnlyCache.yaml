@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Fungus.dll:
     - Fungus.Block
+    - Fungus.BooleanVariable
     - Fungus.Call
     - Fungus.Character
     - Fungus.Clickable2D
@@ -10,11 +11,13 @@ ScriptsOnlyBuild:
     - Fungus.DialogInput
     - Fungus.Draggable2D
     - Fungus.ExecuteHandler
+    - Fungus.FadeScreen
     - Fungus.FadeToView
     - Fungus.Flowchart
     - Fungus.FungusState
     - Fungus.GameStarted
     - Fungus.InfoText
+    - Fungus.IntegerVariable
     - Fungus.KeyPressed
     - Fungus.Localization
     - Fungus.LuaBindings
@@ -22,7 +25,9 @@ ScriptsOnlyBuild:
     - Fungus.LuaScript
     - Fungus.LuaStore
     - Fungus.LuaUtils
+    - Fungus.Menu
     - Fungus.MenuDialog
+    - Fungus.MenuTimer
     - Fungus.NarrativeLogEntryDisplay
     - Fungus.NarrativeLogEntryUI
     - Fungus.NarrativeLogMenu
@@ -38,6 +43,7 @@ ScriptsOnlyBuild:
     - Fungus.SelectOnEnable
     - Fungus.ShakeCamera
     - Fungus.Stage
+    - Fungus.StopMusic
     - Fungus.View
     - Fungus.Wait
     - Fungus.Writer
@@ -103,6 +109,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.VerticalLayoutGroup
   serializedClasses:
     Fungus:
+    - Fungus.BooleanData
     - Fungus.BoundObject
     - Fungus.FloatData
     - Fungus.StringData
@@ -204,6 +211,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3064}
     - Class: 114
+      Script: {instanceID: 3202}
+    - Class: 114
       Script: {instanceID: 3274}
     - Class: 114
       Script: {instanceID: 3698}
@@ -217,6 +226,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 4032}
     - Class: 114
       Script: {instanceID: 4052}
+    - Class: 114
+      Script: {instanceID: 4322}
     - Class: 114
       Script: {instanceID: 4428}
     - Class: 114
@@ -254,6 +265,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6696}
     - Class: 114
+      Script: {instanceID: 6712}
+    - Class: 114
       Script: {instanceID: 6732}
     - Class: 114
       Script: {instanceID: 6818}
@@ -272,7 +285,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7672}
     - Class: 114
+      Script: {instanceID: 7858}
+    - Class: 114
       Script: {instanceID: 7896}
+    - Class: 114
+      Script: {instanceID: 7950}
     - Class: 114
       Script: {instanceID: 8206}
     - Class: 114
@@ -306,7 +323,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10348}
     - Class: 114
+      Script: {instanceID: 10570}
+    - Class: 114
       Script: {instanceID: 11076}
+    - Class: 114
+      Script: {instanceID: 33964}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -3181,4 +3202,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/TitleScene.unity
-  playerPath: "D:/Unity\u904A\u6232/\u9B3C\u5CF6\u9B54\u6CD5\u5C11\u5973\u75C7\u5019\u7FA4app.apk"
+  playerPath: "D:/Unity Projects/\u9B3C\u5CF6\u9B54\u6CD5\u5C11\u5973\u75C7\u5019\u7FA4Mobile.apk"
