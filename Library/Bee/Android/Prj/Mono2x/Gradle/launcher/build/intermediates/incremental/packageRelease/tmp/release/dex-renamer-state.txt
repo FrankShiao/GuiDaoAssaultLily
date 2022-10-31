@@ -1,4 +1,0 @@
-#Fri Oct 28 17:35:21 CST 2022
-base.0=D\:\\Unity Projects\\GuiDaoMagicGirlMobile\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
-path.0=classes.dex
-renamed.0=classes.dex
