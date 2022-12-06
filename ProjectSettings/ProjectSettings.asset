@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: MagicGirlCompany
-  productName: "\u9B3C\u5CF6\u9B54\u6CD5\u5C11\u5973\u75C7\u5019\u7FA4Mobile"
+  productName: "\u9B3C\u5CF6\u5927\u5B78\u751F\u7684\u7121\u804A\u75C7\u5019\u7FA4"
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
