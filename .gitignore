@@ -4,6 +4,7 @@
 /Packages
 /Library
 /Logs
+/UserSettings/
 
 *.csproj
 *.unityproj
