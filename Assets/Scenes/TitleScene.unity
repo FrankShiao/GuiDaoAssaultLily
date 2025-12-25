@@ -45012,7 +45012,6 @@ GameObject:
   - component: {fileID: 282734733}
   - component: {fileID: 282734732}
   - component: {fileID: 282734745}
-  - component: {fileID: 282734746}
   - component: {fileID: 282734751}
   - component: {fileID: 282734750}
   - component: {fileID: 282734748}
@@ -45050,7 +45049,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 282734680}
+  - {fileID: 282734609}
   selectedCommands: []
   variables: []
   description: 
@@ -50068,7 +50067,7 @@ MonoBehaviour:
   itemId: 2036
   blockName: "\u521D\u59CB"
   description: 
-  eventHandler: {fileID: 282734746}
+  eventHandler: {fileID: 0}
   commandList:
   - {fileID: 282734618}
   - {fileID: 282734617}
@@ -53507,21 +53506,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &282734746
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 282734132}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 282734609}
-  suppressBlockAutoSelect: 0
-  waitForFrames: 1
 --- !u!114 &282734747
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -87488,7 +87472,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 282734133}
+  selectedFlowchart: {fileID: 1317374033}
 --- !u!4 &1226340427
 Transform:
   m_ObjectHideFlags: 1
@@ -88756,6 +88740,7 @@ GameObject:
   - component: {fileID: 1317376408}
   - component: {fileID: 1317376407}
   - component: {fileID: 1317376409}
+  - component: {fileID: 1317376410}
   m_Layer: 0
   m_Name: "Flowchart\u6B63\u50B3"
   m_TagString: Untagged
@@ -88883,7 +88868,7 @@ MonoBehaviour:
   itemId: 40
   blockName: "\u958B\u59CB\u5287\u60C5"
   description: 
-  eventHandler: {fileID: 0}
+  eventHandler: {fileID: 1317376410}
   commandList:
   - {fileID: 1317373971}
   - {fileID: 1317374015}
@@ -88945,7 +88930,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1317374016}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1317374267}
   variables:
   - {fileID: 1317376232}
   description: "\u958B\u59CB\u904A\u6232"
@@ -109067,6 +109053,21 @@ MonoBehaviour:
   orthoSizeTweenType: 4
   posTweenType: 4
   rotTweenType: 4
+--- !u!114 &1317376410
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1317373751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1317374016}
+  suppressBlockAutoSelect: 0
+  waitForFrames: 1
 --- !u!1 &1322258720
 GameObject:
   m_ObjectHideFlags: 0
@@ -122148,8 +122149,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1559763916}
-  selectedCommands:
-  - {fileID: 1559763900}
+  selectedCommands: []
   variables:
   - {fileID: 1559763540}
   description: 

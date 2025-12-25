@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "鬼島突擊莉莉症候群.sln"
+    "dotnet.defaultSolution": "GuiDaoAssaultLily.slnx"
 }
